@@ -1,0 +1,5 @@
+.DS_Store
+wp/twentyeleven/*
+wp/twentyten/*
+*/*/.sass-cache/*
+*/*/compass/*
