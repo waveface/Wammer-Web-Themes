@@ -47,7 +47,7 @@
 	?></title>
 
 <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/base.css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/waveface.css">
 
 <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -93,19 +93,40 @@
 
 	  	<nav id="menu">
 	  		<ul>
-	  			<li><a href="https://waveface.com/"><?php _e("Home") ?></a></li>
-	  			<li><a href="https://waveface.com/waveface"><?php echo $t_what_is ?></a></li>
-	  			<li><a href="https://waveface.com/products/download"><?php echo $t_product ?></a></li>
-		<?php if (get_bloginfo('language') != 'zh-TW'): ?>
-	  			<li><a href="http://blog.waveface.com/"><?php echo $t_blog ?></a></li>
+		<?php if (get_bloginfo('language') == 'zh-TW'): ?>
+	  			<li><a href="https://waveface.com/tw/index">首頁</a></li>
+	  			<li><a href="https://waveface.com/tw/feature-photosync.html">功能</a>
+
+				   <ul class="drop-menu">
+				      <li><a href="https://waveface.com/feature-photosync.html">照片管理</a></li>
+				      <li><a href="https://waveface.com/feature-webclip.html">擷取網頁</a></li>
+				    </ul>
+
+	  			</li>
+	  			<li><a href="https://waveface.com/tw/download.html">下載</a></li>
+	  			<li><a href="http://support.waveface.com/tw">常見問題</a></li>
+	  	<?php else: ?>
+	  			<li><a href="https://waveface.com/en/index">Homepage</a></li>
+	  			<li><a href="https://waveface.com/en/feature-photosync.html">Features</a>
+
+				   <ul class="drop-menu">
+				      <li><a href="https://waveface.com/feature-photosync.html">Sync Photo</a></li>
+				      <li><a href="https://waveface.com/feature-webclip.html">Clip Webpages</a></li>
+				    </ul>
+
+	  			</li>
+	  			<li><a href="https://waveface.com/en/download.html">Download</a></li>
+	  			<li><a href="http://blog.waveface.com/">Blog</a></li>
+	  			<li><a href="http://support.waveface.com/tw">FAQ</a></li>
+
 	  	<?php endif ?>
 	  		</ul>
 
 	  	</nav>
-		<p id="login-menu">
+		<div id="action-menu">
 			<!-- <a href="/signup">{% trans "Sign up" %}</a> |  -->
 			<a href="https://waveface.com/login"><?php echo $t_login ?></a>
-		</p>
+		</div>
 		<nav id="access" role="navigation">
 			<h1 class="assistive-text section-heading"><?php _e( 'Main menu', 'toolbox' ); ?></h1>
 			<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'toolbox' ); ?>"><?php _e( 'Skip to content', 'toolbox' ); ?></a></div>
