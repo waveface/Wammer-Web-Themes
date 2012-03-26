@@ -22,7 +22,7 @@ setup_links()
 
 update_perm()
 {
-	chown -R www-data www-data "$sitedir"
+	chown -R www-data:www-data "$sitedir"
 }
 
 restore_links()
