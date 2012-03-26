@@ -5,9 +5,9 @@ sitedir="/mnt/WavefaceWebBlog/current/wp"
 mdirs="blog/wp-content/themes support/wp-content/themes" 
 setup_links()
 {
+	dstdir="$sitedir"
 	for dn in $mdirs ; do
 	srcdir="$webdir/$dn"
-	dstdir="$sitedir"
 	if [ ! -L "$srcdir" ]; then
 	     echo test:mv -f "$srcdir" "${srcdir}.orig"
 	     #mv -f "$srcdir" "${srcdir}.orig"
@@ -18,6 +18,11 @@ setup_links()
 	     cd "$srcdir"; pwd -LP
 	fi
 	done
+}
+
+update_perm()
+{
+	chown -R www-data www-data "$sitedir"
 }
 
 restore_links()
@@ -40,6 +45,7 @@ r*) # restore links
 restore_links
 ;;
 *)
+update_perm
 setup_links
 ;;
 esac
