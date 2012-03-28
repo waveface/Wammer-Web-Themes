@@ -106,7 +106,7 @@
 	  			<li><a href="https://waveface.com/tw/download.html">下載</a></li>
 	  			<li><a href="http://support.waveface.com/tw">常見問題</a></li>
 	  	<?php else: ?>
-	  			<li><a href="https://waveface.com/en/index">Homepage</a></li>
+	  			<li><a href="https://waveface.com/en/index">Home</a></li>
 	  			<li><a href="https://waveface.com/en/feature-photosync.html">Features</a>
 
 				   <ul class="drop-menu">
