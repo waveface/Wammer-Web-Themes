@@ -98,8 +98,8 @@
 	  			<li><a href="https://waveface.com/tw/feature-photosync.html">功能</a>
 
 				   <ul class="drop-menu">
-				      <li><a href="https://waveface.com/feature-photosync.html">照片管理</a></li>
-				      <li><a href="https://waveface.com/feature-webclip.html">擷取網頁</a></li>
+				      <li><a href="https://waveface.com/tw/feature-photosync.html">照片管理</a></li>
+				      <li><a href="https://waveface.com/tw/feature-webclip.html">擷取網頁</a></li>
 				    </ul>
 
 	  			</li>
@@ -110,8 +110,8 @@
 	  			<li><a href="https://waveface.com/en/feature-photosync.html">Features</a>
 
 				   <ul class="drop-menu">
-				      <li><a href="https://waveface.com/feature-photosync.html">Sync Photo</a></li>
-				      <li><a href="https://waveface.com/feature-webclip.html">Clip Webpages</a></li>
+				      <li><a href="https://waveface.com/en/feature-photosync.html">Sync Photo</a></li>
+				      <li><a href="https://waveface.com/en/feature-webclip.html">Clip Webpages</a></li>
 				    </ul>
 
 	  			</li>
