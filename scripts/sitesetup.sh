@@ -10,9 +10,9 @@ setup_links()
 	srcdir="$webdir/$dn"
 	if [ ! -L "$srcdir" ]; then
 	     echo test:mv -f "$srcdir" "${srcdir}.orig"
-	     #mv -f "$srcdir" "${srcdir}.orig"
+	     mv -f "$srcdir" "${srcdir}.orig"
 	     echo test:ln -sf "$dstdir" "${srcdir}" 
-	     #ln -sf "$dstdir" "${srcdir}" 
+	     ln -sf "$dstdir" "${srcdir}" 
 	else 
 	     echo -n ">>> $srcdir ==>" 
 	     cd "$srcdir"; pwd -LP
