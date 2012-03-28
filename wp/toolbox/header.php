@@ -117,7 +117,7 @@
 	  			</li>
 	  			<li><a href="https://waveface.com/en/download.html">Download</a></li>
 	  			<li><a href="http://blog.waveface.com/">Blog</a></li>
-	  			<li><a href="http://support.waveface.com/tw">FAQ</a></li>
+	  			<li><a href="http://support.waveface.com/">FAQ</a></li>
 
 	  	<?php endif ?>
 	  		</ul>
