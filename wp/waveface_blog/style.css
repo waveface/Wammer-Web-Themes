@@ -1,13 +1,5 @@
 /*
 Theme Name:     Waveface Blog
-Description: 	Child theme for the wordpress theme 
+Description: 	Blog theme for the wordpress 
 Author:         Waveface Inc.
-Template:       toolbox
-
-
-Version: 1.4
-Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats
 */
-
-@import url("../toolbox/style.css");
-@import url("../toolbox/base.css");
