@@ -294,11 +294,24 @@ body.en_downloading .menu-download a {
 .sider-menu {
   font-size: 13px;
 }
+.sider-menu ul {
+  margin: 0;
+}
 .sider-menu li {
   display: block;
   border-bottom: 1px solid #ccc;
-  padding: 0 0 15px;
-  margin: 0 0 15px;
+  padding: 15px 0;
+  margin: 0px;
+}
+.sider-menu li.current {
+  color: #3C9EBA;
+}
+.sider-menu li.current h2 {
+  color: #3C9EBA;
+}
+.sider-menu li.current p {
+  padding-left: 10px;
+  border-left: 2px solid #D5EAF0;
 }
 .sider-menu h2 {
   font-size: 15px;
@@ -333,13 +346,14 @@ body.en_downloading .menu-download a {
 
 .post {
   margin: 0 0 10px;
-  color: #333;
+  color: #395055;
   position: relative;
   padding: 15px;
 }
 .post h1 {
   color: #329AB8;
-  font-size: 21px;
+  font-size: 18px;
+  padding-left: 20px;
 }
 .post h1 a {
   text-decoration: none;
@@ -347,6 +361,15 @@ body.en_downloading .menu-download a {
 }
 .post h1 a:hover {
   border-bottom: 1px solid #88C0D0;
+}
+.post h1:before {
+  content: "Q";
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ccc;
 }
 .post h2 {
   font-size: 24px;

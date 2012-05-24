@@ -3,7 +3,7 @@
 <?php 
 
 	if(is_home()) {
-		query_posts( 'cat=5' );
+		query_posts( 'cat=4' );
 	} 
 
 	$categories = get_the_category();

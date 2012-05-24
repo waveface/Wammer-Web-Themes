@@ -5,7 +5,15 @@
 				<?php $categories = get_categories('orderby=order'); ?> 
 
 				<?php foreach ($categories as $c): ?>
-				<li>	
+
+					<?php if ($c->cat_ID == get_query_var( 'cat' ) ): ?>
+
+					<li class="current">
+					<?php else:  ?>
+
+					<li>	
+					<?php endif ?>
+
 				<h2>
 					<a href="<?php echo get_category_link( $c->cat_ID ) ?>">
 					<?php echo $c->name ?></a>
@@ -18,3 +26,4 @@
 	</aside>
 
 </div>
+
