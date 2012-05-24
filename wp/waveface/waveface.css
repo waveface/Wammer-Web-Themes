@@ -1,0 +1,394 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+* {
+  word-wrap: break-word;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  /* Prevent font scaling in landscape */
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  color: #222;
+}
+
+a {
+  color: #329ab8;
+}
+a:hover {
+  color: #277890;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+.copy h1 {
+  color: #395055;
+  font-size: 24px;
+  font-weight: bold;
+}
+.copy h2 {
+  color: #68B0C6;
+  font-size: 18px;
+  font-weight: bold;
+}
+.copy p, .copy ul {
+  line-height: 1.35;
+  margin: 9px 0;
+}
+.copy li {
+  margin: 6px 0;
+}
+
+.doc {
+  padding: 30px 40px;
+}
+.doc h1 {
+  font-size: 36px;
+}
+.doc h2 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+.doc li {
+  list-style-type: square;
+  margin-left: 20px;
+}
+.doc p, .doc ul {
+  margin: 18px 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -90px;
+}
+#root #root_footer {
+  height: 90px;
+}
+
+#footer {
+  clear: both;
+  position: relative;
+  height: 90px;
+}
+
+body {
+  background: #EEEEEE;
+  color: #565656;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+a {
+  color: #329ab8;
+}
+
+a:hover {
+  color: #277890;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+p, ul {
+  margin: 9px 0;
+}
+
+li {
+  margin: 6px 0;
+}
+
+.center, #messages, #header-inner, #main, #footer-inner {
+  max-width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+#header {
+  *zoom: 1;
+  height: 40px;
+  padding: 20px 0 10px;
+}
+#header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#header-inner {
+  position: relative;
+}
+#header-inner #menu {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+}
+
+#menu {
+  font-size: 16px;
+}
+#menu ul {
+  display: block;
+  margin: 0px;
+}
+#menu li {
+  display: inline;
+  margin: 0 40px 0 0;
+  padding: 20px 0;
+  position: relative;
+}
+#menu a {
+  color: #717477;
+  text-decoration: none;
+}
+#menu a:hover {
+  color: #F7941E;
+}
+
+body.tw_index .menu-index a,
+body.tw_feature-photosync .menu-features > a,
+body.tw_feature-webclip .menu-features > a,
+body.tw_download .menu-download a,
+body.tw_downloading .menu-download a,
+body.en_index .menu-index a,
+body.en_feature-photosync .menu-features > a,
+body.en_feature-webclip .menu-features > a,
+body.en_download .menu-download a,
+body.en_downloading .menu-download a {
+  color: #6BA5B6 !important;
+}
+
+#main {
+  *zoom: 1;
+  margin: 20px auto;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  border-color: #ACACAC;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+#main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main > header {
+  padding: 30px 30px 15px;
+}
+
+#content {
+  position: relative;
+}
+
+#footer {
+  font-size: 15px;
+}
+#footer .copyright {
+  font-size: 12px;
+}
+
+#footer-inner {
+  padding: 30px 0 15px;
+  position: relative;
+}
+#footer-inner .socials {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.menu-header {
+  border-bottom: 1px solid #ACACAC;
+  background: url(../images/main.header.bg.png) repeat-x bottom;
+}
+.menu-header h1 {
+  color: #A5A5A5;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0 1px white;
+}
+.menu-header .menu {
+  height: 200px;
+}
+.menu-header .menu li {
+  display: block;
+  float: left;
+}
+
+.sider-menu {
+  font-size: 13px;
+}
+.sider-menu li {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 15px;
+  margin: 0 0 15px;
+}
+.sider-menu h2 {
+  font-size: 15px;
+  margin: 0 0 5px;
+  color: #666;
+}
+.sider-menu h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+.sider-menu h2 a:hover {
+  text-decoration: underline;
+}
+.sider-menu p {
+  margin: 5px 0;
+}
+
+.col-left {
+  width: 27%;
+  float: left;
+  margin-top: 20px;
+}
+
+.col-right {
+  width: 70%;
+  float: right;
+  margin-top: 20px;
+}
+.col-right h2 {
+  margin-top: 20px;
+}
+
+.post {
+  margin: 0 0 10px;
+  color: #333;
+  position: relative;
+  padding: 15px;
+}
+.post h1 {
+  color: #329AB8;
+  font-size: 21px;
+}
+.post h1 a {
+  text-decoration: none;
+  border-bottom: 1px dotted #88C0D0;
+}
+.post h1 a:hover {
+  border-bottom: 1px solid #88C0D0;
+}
+.post h2 {
+  font-size: 24px;
+  margin: 30px 0 10px;
+  font-weight: bold;
+}
+.post h3 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+.post p, .post li {
+  line-height: 1.45;
+}
+.post ul li {
+  list-style-type: square;
+  margin: 10px 0 10px 30px;
+}
+.post img {
+  max-width: 100%;
+}
+.post .entry-content {
+  margin-top: 30px;
+}
+.post .edit-link {
+  position: absolute;
+  right: -30px;
+  top: 15px;
+}
+
+.showAnswer {
+  background-color: #f8fbfc;
+  border-left: 2px solid #D5EAF0;
+}
+
+#search {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#categories h3 {
+  padding-left: 20px;
+  background: url('images/icon.tag.png') no-repeat left center;
+}
