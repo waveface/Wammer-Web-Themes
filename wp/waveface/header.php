@@ -70,13 +70,13 @@
 	  		<ul>
 		<?php if (get_bloginfo('language') == 'zh-TW'): ?>
 	  			<li><a href="https://waveface.com/tw/index.html">首頁</a></li>
-	  			<li><a href="https://waveface.com/tw/features/index.html">功能</a></li>
-	  			<li><a href="https://waveface.com/tw/download.html">下載</a></li>
+	  			<li><a href="https://waveface.com/tw/stream/features/index.html">功能</a></li>
+	  			<li><a href="https://waveface.com/tw/stream/download.html">下載</a></li>
 	  			<li><a href="http://support.waveface.com/tw">常見問題</a></li>
 	  	<?php else: ?>
 	  			<li><a href="https://waveface.com/en/index.html">Home</a></li>
-	  			<li><a href="https://waveface.com/en/features/index.html">Features</a></li>
-	  			<li><a href="https://waveface.com/en/download.html">Download</a></li>
+	  			<li><a href="https://waveface.com/en/stream/features/index.html">Features</a></li>
+	  			<li><a href="https://waveface.com/en/stream/download.html">Download</a></li>
 	  			<li><a href="http://blog.waveface.com/">Blog</a></li>
 	  			<li><a href="http://support.waveface.com/">FAQ</a></li>
 
