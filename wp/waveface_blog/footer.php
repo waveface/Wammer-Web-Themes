@@ -25,7 +25,7 @@
           <img src="<?php bloginfo('template_directory'); ?>/images/site/icon.fb.png" alt="facebook">
        
         </a>
-        <a href="https://waveface.com/en/stream/download.html">
+        <a href="https://www.twitter.com/waveface">
           <img src="<?php bloginfo('template_directory'); ?>/images/site/icon.twitter.png" alt="twitter">         
         </a>
         <a href="mailto:contact@waveface.com">
