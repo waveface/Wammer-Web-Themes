@@ -14,12 +14,12 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-body {
+html {
   line-height: 1;
 }
 
@@ -84,13 +84,18 @@ i, em {
 
 .copy h1 {
   color: #395055;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: bold;
 }
 .copy h2 {
   color: #68B0C6;
   font-size: 18px;
   font-weight: bold;
+}
+.copy h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 5px;
 }
 .copy p, .copy ul {
   line-height: 1.35;
@@ -127,23 +132,23 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -90px;
+  margin-bottom: -150px;
 }
 #root #root_footer {
-  height: 90px;
+  height: 150px;
 }
 
 #footer {
   clear: both;
   position: relative;
-  height: 90px;
+  height: 150px;
 }
 
 body {
   background: #EEEEEE;
   color: #565656;
   font-size: 15px;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.2;
 }
 
@@ -193,8 +198,8 @@ li {
 }
 #header-inner #menu {
   position: absolute;
-  right: -30px;
-  bottom: 0;
+  right: 10px;
+  bottom: 6px;
 }
 
 #menu {
@@ -206,7 +211,7 @@ li {
 }
 #menu li {
   display: inline;
-  margin: 0 40px 0 0;
+  margin: 0  0 0 40px;
   padding: 20px 0;
   position: relative;
 }
@@ -215,20 +220,19 @@ li {
   text-decoration: none;
 }
 #menu a:hover {
-  color: #F7941E;
+  color: #007F9F;
 }
 
 body.tw_index .menu-index a,
-body.tw_feature-photosync .menu-features > a,
-body.tw_feature-webclip .menu-features > a,
+body.tw_stream_features .menu-features a,
 body.tw_download .menu-download a,
-body.tw_downloading .menu-download a,
 body.en_index .menu-index a,
-body.en_feature-photosync .menu-features > a,
-body.en_feature-webclip .menu-features > a,
-body.en_download .menu-download a,
-body.en_downloading .menu-download a {
-  color: #6BA5B6 !important;
+body.en_stream_features .menu-features a,
+body.en_stream_download .menu-download a,
+.Waveface .menu-faq a,
+.Waveface-Blog .menu-blog a,
+a.current {
+  color: #329AB8 !important;
 }
 
 #main {
@@ -269,26 +273,6 @@ body.en_downloading .menu-download a {
   position: absolute;
   right: 0;
   bottom: 20px;
-}
-
-.menu-header {
-  border-bottom: 1px solid #ACACAC;
-  background: url(../images/main.header.bg.png) repeat-x bottom;
-}
-.menu-header h1 {
-  color: #A5A5A5;
-  font-size: 24px;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center;
-  text-shadow: 0 1px white;
-}
-.menu-header .menu {
-  height: 200px;
-}
-.menu-header .menu li {
-  display: block;
-  float: left;
 }
 
 .sider-menu {

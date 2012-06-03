@@ -17,20 +17,13 @@
 
         
     <?php endif ?>
-          <p class="copyright">Copyright © 2011 Waveface Inc. All Rights Reserved</p>
+          <p class="copyright">Copyright © 2012 Waveface Inc. All Rights Reserved</p>
 
         </div>
       <div class="socials">
-        <a href="https://www.facebook.com/waveface">
-          <img src="<?php bloginfo('template_directory'); ?>/images/site/icon.fb.png" alt="facebook">
-       
-        </a>
-        <a href="https://www.twitter.com/waveface">
-          <img src="<?php bloginfo('template_directory'); ?>/images/site/icon.twitter.png" alt="twitter">         
-        </a>
-        <a href="mailto:contact@waveface.com">
-            <img src="<?php bloginfo('template_directory'); ?>/images/site/icon.email.png" alt="email">
-        </a>
+        <a href="https://www.facebook.com/waveface"><img src="<?php bloginfo('template_directory'); ?>/images/site/icon.fb.png" alt="facebook"></a>
+        <a href="https://www.twitter.com/waveface"><img src="<?php bloginfo('template_directory'); ?>/images/site/icon.twitter.png" alt="twitter"></a>
+        <a href="mailto:contact@waveface.com"><img src="<?php bloginfo('template_directory'); ?>/images/site/icon.email.png" alt="email"></a>
       </div>
 
     </div>
