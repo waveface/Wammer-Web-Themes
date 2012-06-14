@@ -317,14 +317,15 @@ a.current {
 }
 .sider-menu li {
   display: block;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
   padding: 15px 0;
   margin: 0px;
 }
-.sider-menu li.current {
+.sider-menu li.current, .sider-menu li:hover {
   color: #3C9EBA;
+  cursor: pointer;
 }
-.sider-menu li.current h2 {
+.sider-menu li.current h2, .sider-menu li:hover h2 {
   color: #3C9EBA;
 }
 .sider-menu li.current p {
@@ -339,9 +340,6 @@ a.current {
 .sider-menu h2 a {
   color: inherit;
   text-decoration: none;
-}
-.sider-menu h2 a:hover {
-  text-decoration: underline;
 }
 .sider-menu p {
   margin: 5px 0;
@@ -386,6 +384,10 @@ a.current {
 }
 .go-top a:hover {
   background-color: #ccc;
+}
+
+h1 a {
+  text-decoration: none;
 }
 
 .post {
