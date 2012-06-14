@@ -5,15 +5,15 @@
 
        <div class="terms">
 
-      <?php if (get_bloginfo('language') == 'zh-TW'): ?>
+    <?php if (get_bloginfo('language') == 'zh-TW'): ?>
 
-            <a href="https://waveface.com/en/about/index.html">About Us</a> | 
-            <a href="https://waveface.com/en/terms.html">Terms of Service</a> | 
-            <a href="https://waveface.com/en/privacy.html">Privacy Policy</a>  
-      <?php else: ?>
-            <a href="https://waveface.com/tw/about/index.html">About Us</a> | 
-            <a href="https://waveface.com/tw/terms.html">Terms of Service</a> | 
-            <a href="https://waveface.com/tw/privacy.html">Privacy Policy</a>  
+          <a href="https://waveface.com/en/terms.html">Terms of Service</a> | 
+          <a href="https://waveface.com/en/privacy.html">Privacy Policy</a> |  
+          <a href="https://waveface.com/en/about/index.html">About Us</a>
+    <?php else: ?>
+          <a href="https://waveface.com/tw/terms.html">使用者條款</a> | 
+          <a href="https://waveface.com/tw/privacy.html">隱私權政策</a>  | 
+          <a href="https://waveface.com/tw/about/index.html">關於我們</a> 
 
           
       <?php endif ?>
