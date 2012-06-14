@@ -49,14 +49,12 @@
 		<?php if (get_bloginfo('language') == 'zh-TW'): ?>
 	  			<li><a href="https://waveface.com/tw/index.html">首頁</a></li>
 	  			<li><a href="https://waveface.com/tw/stream/features/index.html">產品特色</a></li>
-	  			<li><a href="https://waveface.com/tw/stream/features/start.html#content">下載</a></li>
 	  			<li class="menu-faq"><a href="http://support.waveface.com/tw">FAQ</a></li>
 	  			<li class="menu-login"><a href="http://waveface.com/login">登入</a></li>
 				<li><a href="https://waveface.com/tw/stream/download.html" class="flat-button" >免費下載</a></li>
 	  	<?php else: ?>
 	  			<li><a href="https://waveface.com/en/index.html">Home</a></li>
 	  			<li><a href="https://waveface.com/en/stream/features/index.html">Features</a></li>
-	  			<li><a href="https://waveface.com/en/stream/features/start.html#content">Download</a></li>
 	  			<li class="menu-faq"><a href="http://support.waveface.com/">FAQ</a></li>
 	  			<li class="menu-blog"><a href="http://blog.waveface.com/">Blog</a></li>
 	  			<li class="menu-login"><a href="http://waveface.com/login">Login</a></li>
